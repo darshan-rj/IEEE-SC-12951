@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Comic+Neue&family=Imprima&family=Poppins&family=Roboto&family=Sora:wght@800&display=swap");
+
+body {
+  background: #100028;
+}
+
+.team {
+  margin-top: 5%;
+}
+
+.team__card {
+  display: inline-flex;
+  align-items: flex-center;
+  gap: 0.625rem;
+  width: 18.50rem;
+  height: 25rem;
+  border: 0.5px solid #90B5FD;
+  border-radius: 50px;
+  background: #0e0024;
+}
+
+.wave__bg img {
+  width: 18.75rem;
+  height: 20rem;
+  border-radius: 50px;
+  /* background: url(img\wave.png) cover no-repeat; */
+}
+
+.profile__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* display:grid;
+  place-content:center; */
+  position: absolute;
+  left: 3.25rem;
+  bottom: 1.8125rem;
+}
+
+.profile__photo {
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  width: 9.25rem;
+  height: 11.65rem;
+  padding: 0.625rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+  border-radius: 50px;
+  /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.name {
+  display: flex;
+  width: 14rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #71a1ff;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.role {
+  display: flex;
+  width: 14rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #71eeff;
+  text-align: center;
+  font-size: 0.875rem;
+  font-family: Poppins;
+  letter-spacing: 0.02625rem;
+  margin-top: 0.7rem;
+}
+
+.department {
+  margin-top: 0;
+  display: flex;
+  width: 12.5rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #9a9a9a;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+}
+
+.social__links {
+  display: flex;
+  align-items: center;
+  gap: 1.3125rem;
+}
